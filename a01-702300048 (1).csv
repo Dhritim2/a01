@@ -1,0 +1,76 @@
+S.No.,Statement,Predicate
+1,"If you're resourceful, find solutions.",∀ X resourceful?(X) → find_solutions?(X)
+2,"If the cake is ready, take it out of the oven.","∀ X ready?(cake) → take_out?(X, oven)"
+3,"If you're honest, tell the truth.",∀ X honest?(X) → tell_truth?(X)
+4,"If the plant looks dry, water it.","∀ X looks_dry?(plant) → water?(X, plant)"
+5,"If the battery dies, charge your phone.","∀ X dies?(battery) → charge?(X, phone)"
+6,"If the sunset is beautiful, take pictures.","∀ X beautiful?(sunset) → take_pictures?(X, sunset)"
+7,"If you're tired, take a nap.",∀ X tired?(X) → take_nap?(X)
+8,"If the bread is stale, make toast.","∀ X stale?(bread) → make_toast?(X, bread)"
+9,"If the bird sings, listen carefully.","∀ X sings?(bird) → listen_carefully?(X, bird)"
+10,"If you study hard, you'll pass the test.",∀ X study_hard?(X) → pass_test?(X)
+11,"If the snow falls, shovel the path.","∀ X falls?(snow) → shovel?(X, path)"
+12,"If the music is too loud, turn it down.","∀ X too_loud?(music) → turn_down?(X, music)"
+13,"If you're cold, put on a sweater.","∀ X cold?(X) → put_on?(X, sweater)"
+14,"If the door is locked, use your key.","∀ X locked?(door) → use?(X, key)"
+15,"If you're hopeful, share optimism.",∀ X hopeful?(X) → share_optimism?(X)
+16,"If the bell rings, answer the door.","∀ X rings?(bell) → answer?(X, door)"
+17,"If you're creative, make something.","∀ X creative?(X) → make?(X, something)"
+18,"If it rains tomorrow, I'll bring an umbrella.",rain?(tomorrow) → bring_umbrella?(me)
+19,"If the shoes fit, buy them.","∀ X fit?(shoes) → buy?(X, shoes)"
+20,"If we hurry, we won't be late.",hurry?(we) → not_late?(we)
+21,"If you're wrong, admit it.",∀ X wrong?(X) → admit?(X)
+22,"If the train is delayed, be patient.",∀ X delayed?(train) → be_patient?(X)
+23,"If the wind blows, close the windows.","∀ X blows?(wind) → close?(X, windows)"
+24,"If you're brave, face fears.",∀ X brave?(X) → face_fears?(X)
+25,"If the pencil breaks, sharpen it.","∀ X breaks?(pencil) → sharpen?(X, pencil)"
+26,"If you're hungry, there's food in the fridge.",∀ X hungry?(X) → food_in_fridge?(X)
+27,"If you're dedicated, work consistently.",∀ X dedicated?(X) → work_consistently?(X)
+28,"If the storm comes, stay inside.",comes?(storm) → stay_inside?(X)
+29,"If the light bulb burns out, replace it.","∀ X burns_out?(light_bulb) → replace?(X, light_bulb)"
+30,"If the sun sets, the temperature drops.",sets?(sun) → drops?(temperature)
+31,"If the fish smells fresh, buy it.","∀ X fresh?(fish) → buy?(X, fish)"
+32,"If the fire alarm sounds, evacuate.",∀ X sounds?(fire_alarm) → evacuate?(X)
+33,"If the window breaks, cover it.","∀ X breaks?(window) → cover?(X, window)"
+34,"If you're reliable, keep promises.",∀ X reliable?(X) → keep_promises?(X)
+35,"If you're sleepy, go to bed.",∀ X sleepy?(X) → go_to_bed?(X)
+36,"If the food is hot, let it cool.","∀ X hot?(food) → let_cool?(X, food)"
+37,"If you need directions, use a map.","∀ X need_directions?(X) → use?(X, map)"
+38,"If I win the lottery, I'll travel the world.","win?(me, lottery) → travel?(me, world)"
+39,"If you practice daily, you'll improve quickly.",∀ X practice_daily?(X) → improve_quickly?(X)
+40,"If you're thirsty, drink water.","∀ X thirsty?(X) → drink?(X, water)"
+41,"If the dish breaks, sweep it up.","∀ X breaks?(dish) → sweep_up?(X, dish)"
+42,"If you're inspired, take action.",∀ X inspired?(X) → take_action?(X)
+43,"If the internet is slow, restart the router.","∀ X slow?(internet) → restart?(X, router)"
+44,"If you're kind, help others.","∀ X kind?(X) → help?(X, others)"
+45,"If you're confused, ask questions.",∀ X confused?(X) → ask_questions?(X)
+46,"If I were you, I'd take that job offer.","were?(me, you) → take?(me, job_offer)"
+47,"If you're bored, read a book.","∀ X bored?(X) → read?(X, book)"
+48,"If the car won't start, call a mechanic.","∀ X wont_start?(car) → call?(X, mechanic)"
+49,"If the timer beeps, check the oven.","∀ X beeps?(timer) → check?(X, oven)"
+50,"If the movie starts at eight, we should leave by seven.","starts_at?(movie, 8) → leave_by?(we, 7)"
+51,"If the baby cries, check on them.","∀ X cries?(baby) → check_on?(X, baby)"
+52,"If you see a shooting star, make a wish.","∀ X see?(X, shooting_star) → make_wish?(X)"
+53,"If the stars shine, make wishes.",∀ X shine?(stars) → make_wishes?(X)
+54,"If the mirror fogs, wipe it clean.","∀ X fogs?(mirror) → wipe_clean?(X, mirror)"
+55,"If she arrives early, we can start the meeting sooner.",∀ X arrives_early?(she) → start_meeting_sooner?(we)
+56,"If the milk smells bad, throw it out.","∀ X smells_bad?(milk) → throw_out?(X, milk)"
+57,"If the sink leaks, call a plumber.","∀ X leaks?(sink) → call?(X, plumber)"
+58,"If you're running late, call ahead.",∀ X running_late?(X) → call_ahead?(X)
+59,"If the ice cream melts, put it back.","∀ X melts?(ice_cream) → put_back?(X, ice_cream)"
+60,"If the clock stops, change batteries.",∀ X stops?(clock) → change_batteries?(X)
+61,"If I had more time, I would learn to play piano.","has?(me, more_time) → learn_play_piano?(me)"
+62,"If you're responsible, fulfill duties.",∀ X responsible?(X) → fulfill_duties?(X)
+63,"If you feel sick, stay home.",∀ X sick?(X) → stay_home?(X)
+64,"If the fruit ripens, eat it soon.","∀ X ripens?(fruit) → eat_soon?(X, fruit)"
+65,"If you're scared, hold my hand.","∀ X scared?(X) → hold_hand?(X, me)"
+66,"If you heat water to 100°C, it boils.","heat_to?(water, 100) → boils?(water)"
+67,"If it's sunny, let's have a picnic.",sunny?(weather) → have_picnic?(we)
+68,"If the door squeaks, oil the hinges.","∀ X squeaks?(door) → oil?(X, hinges)"
+69,"If you smell gas, open the windows.","∀ X smells?(X, gas) → open?(X, windows)"
+70,"If you're late, apologize.",∀ X late?(X) → apologize?(X)
+71,"If you're excited, share the news.",∀ X excited?(X) → share_news?(X)
+72,"If you make a mistake, learn from it.","∀ X makes_mistake?(X) → learn_from?(X, mistake)"
+73,"If you're lonely, call a friend.","∀ X lonely?(X) → call?(X, friend)"
+74,"If you're punctual, arrive early.",∀ X punctual?(X) → arrive_early?(X)
+75,"If the light is red, stop driving.",∀ X red?(light) → stop_driving?(X)
